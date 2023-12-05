@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/dotnet/sdk:6.0
+FROM mcr.microsoft.com/dotnet/sdk:6.0.8
 COPY . ./src
 WORKDIR /src
 RUN dotnet build -o /app
