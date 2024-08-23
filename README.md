@@ -1,4 +1,4 @@
-# Building a Student Database using .NET and Docker
+# Building a Student Database using .NET and Docker Prabhu 1
 
 
 This repository shows you how to containerize a .NET application using Docker Compose. The application used in this blog is a Webapp communicating with a Postgresql database. When the page is loaded, it will query the Student table for the record with ID and display the name of student on the page.
